@@ -67,9 +67,9 @@ public class AccountDataManager implements DataManager<BankAccount> {
 
 
         } catch (SQLException e) {
-            Main.logMessage("warn", e.getMessage());
+            //Main.logMessage("warn", e.getMessage());
         }
-        Main.logMessage("info", bankAccount.toString());
+        //Main.logMessage("info", bankAccount.toString());
         return bankAccount;
     }
 
@@ -95,7 +95,7 @@ public class AccountDataManager implements DataManager<BankAccount> {
             }
 
         } catch (SQLException e) {
-            Main.logMessage("warn", e.getMessage());
+            //Main.logMessage("warn", e.getMessage());
         }
         return list;
     }

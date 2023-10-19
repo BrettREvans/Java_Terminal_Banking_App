@@ -1,8 +1,5 @@
 package com.revature.project.zero.tools;
 
-import com.revature.project.zero.Main;
-import org.apache.log4j.Logger;
-
 public class Menus {
 
     //the primary way of printing the menu ui
